@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spy x Family - All Seasons</title>
+  <style>
+    :root {
+      --bg-color: #f4f4f4;
+      --text-color: #1e1e2f;
+      --card-bg: white;
+    }
+
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #f4f4f4;
+      --card-bg: #1e1e2f;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      background-color: #2b2d42;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      position: relative;
+    }
+
+    .toggle-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #ffffff20;
+      color: white;
+      border: 1px solid white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .season {
+      background-color: var(--card-bg);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .season h2 {
+      color: var(--text-color);
+    }
+
+    .season a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .season a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #2b2d42;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Spy x Family</h1>
+  <p>Overview of All Seasons</p>
+  <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</header>
+
+<div class="season">
+  <h2>Season 1 (2022)</h2>
+  <a href="https://www.anime-hindi.xyz/2023/11/spy-x-family-hindi-dubbed.html?m=1" target="_blank">
+    Watch Season 1 in Hindi
+  </a>
+</div>
+
+<div class="season">
+  <h2>Season 2 (2023)</h2>
+   <a href="https://www.anime-hindi.xyz/2024/01/spy-x-family-season-02-hindi-dubbed.html?m=1" target="_blank">
+    Watch Season 2 in Hindi
+  </a>
+</div>
+
+<div class="season">
+  <a href="https://www.anime-hindi.xyz/2024/12/spy-x-family-code-white-hindi-dubbed.html?m=1">
+  <h2>Movie: Spy x Family CODE: White (2023)</h2></a>
+</div>
+
+<footer>
+  <p>&copy; 2025 Spy x Family Fan Page</p>
+</footer>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+</script>
+
+</body>
+</html>

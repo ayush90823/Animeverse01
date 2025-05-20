@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Child</title>
+  <style>
+    body {
+      margin: 0;
+      font-family:, sans-serif;
+      background:#1e1e2f ;
+      color: #333;
+    }
+    h3{
+      color: white;
+    }
+
+    header {
+      background: #ffb347;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #ffd700;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      margin: 0 1rem;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #1e1e2f;
+      border-radius: 15px;
+      box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 50%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding:0rem;
+      text-align: center;
+    }
+
+    .play-button {
+      display: block;
+      margin: 0rem auto;
+      background: #ff6f61;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .play-button:hover {
+      background: #e4574f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ffb347;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Cartoon World 🎉
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Comedy</a>
+    <a href="#">Action</a>
+    <a href="/child.html">Child</a>
+  </nav>
+<center>
+  <div class="container">
+    <div class="card">
+      <img src="/Screenshot_2025-05-14-11-29-15-78_680d03679600f7af0b4c700c6b270fe7.jpg" alt="Doraemon">
+      <div class="card-content">
+        <h3>Doraemon</h3>
+        <a href="#" class="play-button">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/001_p.png" alt="Shinchan">
+      <div class="card-content">
+        <h3>Shinchan</h3>
+        <a href="#" class="play-button">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/Screenshot_2025-05-14-12-11-05-61_680d03679600f7af0b4c700c6b270fe7.jpg">
+      <div class="card-content">
+        <h3>Chhota Bheem</h3>
+        <a href="/index.html" class="play-button">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/Screenshot_2025-05-14-12-11-35-84_680d03679600f7af0b4c700c6b270fe7.jpg" alt="Tom and Jerry">
+      <div class="card-content">
+        <h3>Tom & Jerry</h3>
+        <a href="#" class="play-button">▶ Watch Now</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images (1) (1).jpeg" alt="Motu Patlu">
+      <div class="card-content">
+        <h3>Motu Patlu</h3>
+        <a href="#" class="play-button">▶ Watch Now</a>
+      </div>
+    </div>
+  </div>
+  </center>
+
+  <footer>
+    © 2025 Animeverse. All rights reserved.
+  </footer>
+</body>
+</html>
